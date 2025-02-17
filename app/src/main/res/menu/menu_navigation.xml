@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:title="Favoritos"
+            android:icon="@drawable/ic_favorite" />
+        <item
+            android:id="@+id/nav_acao"
+            android:title="Ação"
+            android:icon="@drawable/ic_acao" />
+        <item
+            android:id="@+id/nav_aventura"
+            android:title="Aventura"
+            android:icon="@drawable/ic_aventura" />
+        <item
+            android:id="@+id/nav_terror"
+            android:title="Terror"
+            android:icon="@drawable/ic_terror" />
+    </group>
+</menu>

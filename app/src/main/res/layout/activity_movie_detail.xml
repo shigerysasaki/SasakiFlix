@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <!-- Toolbar com botão de voltar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="Detalhes do Filme"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_back"/>
+
+    <!-- Imagem do Filme -->
+    <ImageView
+        android:id="@+id/moviePosterDetail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:contentDescription="Pôster do Filme"/>
+
+    <!-- Título do Filme -->
+    <TextView
+        android:id="@+id/movieTitleDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/netflix_red"
+        android:padding="8dp"/>
+
+    <!-- Descrição do Filme -->
+    <TextView
+        android:id="@+id/movieOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:padding="8dp"/>
+
+</LinearLayout>
